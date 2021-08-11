@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matt Damon'un Resmi Web Sitesi">
+    <meta name="keywords" content= "Matt Damon, Resmi, Web Sitesi,html,css"> 
+    <title>Matt Damon'un Resmi Web Sitesi</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#sayfa{
+    width:400px;
+min-height:600px;
+border-style:solid;
+border-width:1px;
+margin: auto;
+}
+/* BANNER */
+#banner{
+width:398px;
+height:100px;
+border-style:solid;
+border-width:1px;
+background-color:white;
+margin: auto;
+}
+/* LOGO */
+#logo{
+width:100px;
+height:80px;
+border-style:none;
+border-width:1px;
+background-color: white;
+position: relative;
+top:10px;
+left:10px;
+float: left;
+}
+/* SOSYAL MEDYA İCONLARI */
+#sosyal{
+width:150px;
+height:40px;
+border-style:none;
+border-width:1px;
+background-color: white;
+position: relative;
+top:50px;
+right:10px;
+float: right;
+
+}
+#matt{
+    width: 100px;
+    height: 80px;
+}
+#sos{
+    float:right;
+    margin left:10px;
+    width: 50px;
+    height: 35px;
+}
+/*anamenü*/
+#anamenu{
+widows:398px;
+height:50px;
+border-style:solid;
+border-width:1px;
+background-color:yellow;
+margin: auto;
+
+}
+#anamenu ul{
+    list-style-type:none;
+}
+
+#anamenu ul li{
+    border-style: solid;
+    border-radius:8px;
+    width:80px;
+    height:15px;
+    float:left;
+    background-color: burlywood;
+    border width: 3px;
+    border-color:blue;
+    padding:5px;
+    margin:1px;
+    position: relative;
+    top: 10px;
+    text-align:center;
+
+}
+#anamenu ul a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 14px;
+
+}
+#anamenu ul a:link{
+    color:blue
+}
+#anamenu ul a:visited{
+    color:brown;
+}
+#anamenu ul a:hover{
+    color: grey;
+    text-decoration: underline;
+
+}
+#anamenu ul a:active{
+    color: red;
+}
+/* içerik ve yanimenu */
+#icerik{
+width:300px;
+min-height:400px;
+border-style:solid;
+border-width:1px;
+background-color:white;
+float: left;
+
+}
+#yanmenu{
+width:96px;
+min-height:400px;
+border-style:solid;
+border-width:1px;
+background-color:burlywood;
+float: left;
+
+}
+.foto{
+    float:left;
+    width: 100px;
+    height: 100px;
+}
+.baslık{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: aqua;
+}
+.metin{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color:brown;
+
+}
+/*alt menü */
+#altmenu{
+width:398px;
+min-height:42px;
+border-style:solid;
+border-width:1px;
+background-color:chartreuse;
+float: left;
+text-align:center;
+
+}
+#altmenu a{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 17px;
+color:black;
+font-weight: bolder;
+padding:3px;
+margin: 1px;
+text-decoration: none;
+
+}
+#altmenu a:hover{
+    text-decoration: underline;
+    color:red;
+
+}
+.kucukmetin{
+    color: red;
+    font-size: 15px;
+
+}
+
+    </style>
+</head>
+<body>
+<div id="sayfa">
+    <header id="banner">
+        <div id="logo">
+            <a href="index.html"><img id="matt" src="foto/matt-damon-1412685187.jpg" alt=" Matt Damon"></a>
+
+        </div>
+<div id="sosyal">
+    <a href="#"> <img id="sos" src="foto/facebook.jpg" alt=""></a> 
+    <a href="#"> <img id="sos" src="foto/instagram-icon.jpg" alt=""></a>
+   <a href="#"> <img id="sos" src="foto/twitter image.jpg" alt=""></a>
+   
+</div>
+    </header>
+    <nav id="anamenu">
+        <ul>
+            <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="ben-kimim.html">Ben Kimim?</a></li>
+            <li><a href="egitim.html">Eğitimlerim</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+    </nav>
+    <article id="icerik">
+        <img class="foto" src="foto/America Land of Liberty.jpg" alt="America Land of Liberty">
+<h1 class="baslık">Lorem, ipsum dolor.</h1>
+<p class="metin">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima dicta cupiditate ipsum perspiciatis sint nostrum saepe atque quidem facilis. Rerum, molestias repellat. Vero eaque suscipit incidunt aperiam! Ut laudantium, tempora dolorem nesciunt quos commodi earum cumque laboriosam corporis voluptatibus maxime maiores tempore amet corrupti consequatur, labore in. Placeat, doloremque ipsa?</p>
+  <p class="metin">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, necessitatibus culpa. Error atque voluptate placeat reiciendis consequatur labore, itaque voluptas amet tenetur. Fuga ullam fugiat at sapiente cumque! Distinctio, minima?</p>
+    </article>
+    <aside id="yanmenu">
+        <h1 class="baslık">Lorem, ipsum.</h1>
+        <p class="metin">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <h1 class="baslık">Lorem, ipsum.</h1>
+        <p class="metin">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <h1 class="baslık">Lorem, ipsum.</h1>
+        <p class="metin">Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+</aside>
+
+    <footer id="altmenu">
+    <a href="index.html">Anasayfa</a>
+    <a href="ben-kimim.html">Ben Kimim?</a>
+    <a href="egitim.html">Eğitimlerim</a>
+    <a href="iletisim.html">İletişim</a>
+    <br>
+    <p class="kucukmetin">Tüm Hakları Saklıdır.</p>
+
+    </footer>
+
+</div>
+</body>
+</html>
